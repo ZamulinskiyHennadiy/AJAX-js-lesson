@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Protest+Guerrilla&display=swap"
+    rel="stylesheet">
+  <link rel="icon" type="image/svg+xml"
+    href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20' style='background:black'><text y='16' font-family='Trebuchet MS' font-weight='900' fill='orange'>UB</text></svg>">
+  <script src="script.js"defer></script>
+  <title>AJAX-js-lesson</title>
+</head>
+
+<body>
+  <form id="search-form">
+    <h2>Пошук фільмів</h2>
+
+    <form id="search-form">
+      <input type="text" name="s" placeholder="Введіть назву фільму" required>
+      <select id="type">
+        <option value="movie">Фільм</option>
+        <option value="series">Серіал</option>
+        <option value="episode">Епізод</option>
+      </select>
+      <button type="submit">Search</button> <!-- Кнопка типу submit -->
+    </form>
+
+    <ul id="movies"></ul>
+    <div id="pagination"></div>
+    <div id="details" hidden></div>
+</body>
+
+</html>
