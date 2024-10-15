@@ -2,7 +2,7 @@ const searchForm = document.getElementById('search-form');
 const movieList = document.getElementById('movies');
 const movieDetails = document.getElementById('details');
 const pagination = document.getElementById('pagination');
-const BASE_URL = 'http://www.omdbapi.com/';
+const BASE_URL = 'https://www.omdbapi.com/';
 const API_KEY = '8084fa83';  // Твій API ключ
 
 let currentPage = 1;
